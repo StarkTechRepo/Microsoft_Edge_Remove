@@ -31,3 +31,8 @@ Este proyecto está bajo la licencia [Creative Commons Attribution 4.0 Internati
 ### Nota importante
 La desinstalación de Microsoft Edge podría causar problemas en el sistema operativo. Se recomienda encarecidamente hacer una copia de seguridad de los datos importantes antes de continuar. El autor no se hace responsable de ningún daño o problema causado por el uso de estos comandos.
 
+## Dando Estrella
+
+Si encuentras útiles estos scripts o te han ayudado de alguna manera, ¡por favor considera darle una estrella a este repositorio! Tu apoyo es muy apreciado y nos ayuda a seguir compartiendo recursos útiles con la comunidad.
+
+
