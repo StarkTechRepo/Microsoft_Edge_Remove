@@ -1,4 +1,5 @@
 @echo off
+color 30
 title - https://github.com/OtaconEvil
 
 :: Script para mejorar la privacidad y desinstalar Microsoft Edge Chromium
