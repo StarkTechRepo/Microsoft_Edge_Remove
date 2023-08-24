@@ -31,8 +31,9 @@ Get-AppxPackage -allusers *Microsoft.MicrosoftEdge* | Foreach {Add-AppxPackage -
 ### Encontrar el nombre del paquete de Microsoft Edge
 1. Abre PowerShell como administrador.
 2. Ejecuta el comando
+para encontrar el nombre del paquete de Microsoft Edge.
 ```
-DISM /Online /Get-ProvisionedAppxPackages | Select-String Packagename` para encontrar el nombre del paquete de Microsoft Edge.
+DISM /Online /Get-ProvisionedAppxPackages | Select-String Packagename`
 ```
 
 ## Licencia
