@@ -18,7 +18,7 @@ Este repositorio contiene un conjunto de comandos para desactivar, desinstalar y
 2. Ejecuta el comando
 para desinstalar Microsoft Edge.
  ```
-4. Get-AppxPackage -allusers *Microsoft.MicrosoftEdge* | Remove-AppxPackage` 
+Get-AppxPackage -allusers *Microsoft.MicrosoftEdge* | Remove-AppxPackage` 
  ```
 
 ### Reinstalar Microsoft Edge
