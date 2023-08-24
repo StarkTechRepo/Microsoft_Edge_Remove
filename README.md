@@ -15,14 +15,17 @@ Este repositorio contiene un conjunto de comandos para desactivar, desinstalar y
 
 ### Desinstalar Microsoft Edge
 1. Abre PowerShell como administrador.
-2. Ejecuta el comando   ```Get-AppxPackage -allusers *Microsoft.MicrosoftEdge* | Remove-AppxPackage` para desinstalar Microsoft Edge.  ```
+2. Ejecuta el comando
+ ```
+4. Get-AppxPackage -allusers *Microsoft.MicrosoftEdge* | Remove-AppxPackage` para desinstalar Microsoft Edge.
+ ```
 
 ### Reinstalar Microsoft Edge
 1. Abre PowerShell como administrador.
 2. Ejecuta el comando
 para reinstalar Microsoft Edge.
 ```
-`Get-AppxPackage -allusers *Microsoft.MicrosoftEdge* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Get-AppxPackage -allusers *Microsoft.MicrosoftEdge* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ```
 
 ### Encontrar el nombre del paquete de Microsoft Edge
